@@ -1,0 +1,50 @@
+.container {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #000; 
+  border-radius: 8px;
+  transition: transform 0.3s ease; 
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+.card-img {
+  width: 100%; 
+  height: auto; }
+.card-body {
+  padding: 10px;
+}
+
+.card-body a {
+  text-decoration: none; 
+  color: #333; 
+}
+.card-body a:hover {
+  color: #007bff; 
+}
+.addToCartButton,
+.buyNowButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.addToCartButton:hover,
+.buyNowButton:hover {
+  background-color: #0056b3;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
